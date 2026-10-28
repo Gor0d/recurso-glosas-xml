@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "items": [
+    {"id":"auth_configured","stage":"Acesso e segurança","label":"Administrador configurado e autenticação ativa","kind":"automatic"},
+    {"id":"individual_users","stage":"Acesso e segurança","label":"Contas individuais criadas para a equipe do teste","kind":"automatic"},
+    {"id":"roles_reviewed","stage":"Acesso e segurança","label":"Perfis de administrador e analista revisados","kind":"manual"},
+    {"id":"contract_loaded","stage":"Dados e conciliação","label":"Contrato de conciliação carregado","kind":"automatic"},
+    {"id":"focus_items","stage":"Dados e conciliação","label":"XML possui Honorários, OPME, Diárias ou Taxas","kind":"automatic"},
+    {"id":"reconciliation_reviewed","stage":"Dados e conciliação","label":"Itens prováveis revisados pela equipe","kind":"manual"},
+    {"id":"glossary_ready","stage":"Dados e conciliação","label":"Dicionário prioritário disponível","kind":"automatic"},
+    {"id":"guides_confirmed","stage":"Recurso TISS","label":"Colunas J/K e números de guia conferidos","kind":"automatic"},
+    {"id":"appeal_selected","stage":"Recurso TISS","label":"Ao menos um item selecionado para recurso","kind":"automatic"},
+    {"id":"documents_checked","stage":"Recurso TISS","label":"Documentos comprobatórios revisados","kind":"manual"},
+    {"id":"xsd_available","stage":"Recurso TISS","label":"Schema XSD disponível para validação","kind":"automatic"},
+    {"id":"xml_dry_run","stage":"Recurso TISS","label":"XML gerado e revisado sem transmissão","kind":"automatic"},
+    {"id":"hml_connected","stage":"Integração MV — etapa 2","label":"Conexão HML confirmada e identificada","kind":"manual"},
+    {"id":"mv_mapping_approved","stage":"Integração MV — etapa 2","label":"Tabelas, chaves e DE/PARA aprovados com o DBA","kind":"manual"},
+    {"id":"rollback_validated","stage":"Integração MV — etapa 2","label":"Backup, transação e rollback testados em HML","kind":"manual"},
+    {"id":"hml_result_reconciled","stage":"Integração MV — etapa 2","label":"Carga HML conferida por SELECT antes do commit","kind":"manual"}
+  ]
+}

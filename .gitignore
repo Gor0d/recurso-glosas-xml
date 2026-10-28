@@ -1,0 +1,23 @@
+# Dados reais/sensíveis — nunca versionar (contêm dado de paciente/produção real)
+data/
+output/
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+
+# PDF legado gerado com dado de piloto real antigo, sem fonte .md para regenerar
+docs/Tutorial_Teste_XML_Nexo_Glosas.pdf
+
+# Segredos locais
+.env
+.env.*
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# SO / editor
+.DS_Store
+Thumbs.db

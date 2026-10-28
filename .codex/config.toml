@@ -1,0 +1,23 @@
+[mcp_servers.soul-mv-erp]
+command = "python"
+args = ["server.py"]
+cwd = "C:\\Users\\emers\\Projetos\\erp-mcp-server"
+enabled = true
+required = false
+startup_timeout_sec = 20
+tool_timeout_sec = 60
+default_tools_approval_mode = "auto"
+
+# Homologacao (ORASML/sml). So conecta depois que existir um erp-mcp-server/.env.hml
+# real (copiar de .env.hml.example e preencher as credenciais) - sem isso, esta
+# entrada falha ao iniciar (required=false, entao nao trava o resto do Codex).
+[mcp_servers.soul-mv-erp-hml]
+command = "python"
+args = ["server.py"]
+cwd = "C:\\Users\\emers\\Projetos\\erp-mcp-server"
+env = { MV_ENV = "hml" }
+enabled = true
+required = false
+startup_timeout_sec = 20
+tool_timeout_sec = 60
+default_tools_approval_mode = "auto"

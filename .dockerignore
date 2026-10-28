@@ -1,0 +1,17 @@
+.git
+.codex
+.claude
+__pycache__
+*.py[cod]
+*.log
+.pytest_cache
+.venv
+venv
+data
+docs
+sql
+tests
+*.pdf
+output/nexo_auth.sqlite3*
+output/_edge_pdf_profile*
+output/_qa_*

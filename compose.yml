@@ -1,0 +1,13 @@
+services:
+  nexo-glosas:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: nexo-glosas:local
+    container_name: nexo-glosas
+    restart: unless-stopped
+    ports:
+      - "8877:8765"
+    volumes:
+      - ./output:/app/output
+      - ./data/oracle_dump:/app/data/oracle_dump:ro
